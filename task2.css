@@ -3,6 +3,14 @@ body {
 }
 h1 {
   color: #2497BF;
-  font-family:  'Anton', sans-serif;
-  font-weight: 600
+font-family: 'Bebas Neue', cursive ; 
+font-weight: normal;
+font-size: 160px;
+}
+
+p{
+color: #2497BF;
+font-family: 'Poppins', sans-serif;
+font-weight: 1600;
+font-size: 24px;
 }
