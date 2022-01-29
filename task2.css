@@ -1,7 +1,8 @@
 body {
-  background: lightyellow;
-  font: 18px Arial, sans-serif;
+  background-color: #2657C9;
 }
 h1 {
-  color: orange;
+  color: #2497BF;
+  font-family:  'Anton', sans-serif;
+  font-weight: 600
 }
