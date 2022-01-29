@@ -1,21 +1,26 @@
 body {
-  background-color: #2657C9;
+  background-color: #ffffff;
 }
 h1 {
-  color: #2497BF;
+  color: #000000;
 font-family: 'Bebas Neue', cursive ; 
 font-weight: normal;
 font-size: 160px;
+font-weight: 400;
 }
 
 p{
-color: #2497BF;
+color: #000000;
 font-family: 'Poppins', sans-serif;
-font-weight: 1600;
+font-weight: 400;
 font-size: 24px;
 }
 button {
-  background: #2497BF;
+  font-family:'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: #6CB48F;
+  color: #ffffff;
 box-shadow: 20px 20px 60px #C3DDD0;
 border: none;
 padding: 15px 32px;
@@ -25,7 +30,7 @@ cursor: pointer;
 transition-duration: 0.4s;
 }
 button:hover{
-  color: #ffffff;
-  background-color: #2497BF;
+  color: #000000;
+  background-color: #6CB48F;
   padding: 15px 32px;
 }
