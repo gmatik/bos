@@ -1,26 +1,27 @@
 body {
-  background-color: #ffffff;
+background-color: #ffffff;
+font-family: 'Poppins', sans-serif;
+font-weight: 528;
+font-size: 24px;
 }
-h1 {
-  color: #000000;
+
+#baslik1 {
+color: #000000;
 font-family: 'Bebas Neue', cursive ; 
 font-weight: normal;
 font-size: 160px;
-font-weight: 400;
+font-weight: 646;
 }
 
-p{
-color: #000000;
-font-family: 'Poppins', sans-serif;
-font-weight: 400;
-font-size: 24px;
+#yazi1 {
+color: #707581;
 }
-button {
-  font-family:'Poppins', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  background: #6CB48F;
-  color: #ffffff;
+
+.tus1{
+font-size: 18px;
+font-weight: 165;
+background: #6CB48F;
+color: #ffffff;
 box-shadow: 20px 20px 60px #C3DDD0;
 border: none;
 padding: 15px 32px;
@@ -29,8 +30,17 @@ display: inline-block;
 cursor: pointer;
 transition-duration: 0.4s;
 }
-button:hover{
-  color: #000000;
-  background-color: #6CB48F;
-  padding: 15px 32px;
+
+button.tus1:hover{
+color: #000000;
+background-color: #6CB48F;
+padding: 15px 32px;
+}
+
+img{
+float: right;
+}
+
+span{
+display: block;
 }
