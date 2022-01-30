@@ -1,46 +1,45 @@
 body {
-background-color: #ffffff;
-font-family: 'Poppins', sans-serif;
-font-weight: 528;
-font-size: 24px;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 528;
+  font-size: 24px;
 }
 
 #baslik1 {
-color: #000000;
-font-family: 'Bebas Neue', cursive ; 
-font-weight: normal;
-font-size: 160px;
-font-weight: 646;
+  color: #000000;
+  font-family: 'Bebas Neue', cursive ;
+  font-weight: normal;
+  font-size: 160px;
+  font-weight: 646;
 }
 
 #yazi1 {
-color: #707581;
+  color: #707581;
 }
 
-.tus1{
-font-size: 18px;
-font-weight: 165;
-background: #6CB48F;
-color: #ffffff;
-box-shadow: 20px 20px 60px #C3DDD0;
-border: none;
-padding: 15px 32px;
-border-radius: 40px;
-display: inline-block;
-cursor: pointer;
-transition-duration: 0.4s;
+.tus1 {
+  font-size: 18px;
+  font-weight: 165;
+  background: #6CB48F;
+  color: #ffffff;
+  box-shadow: 20px 20px 60px #C3DDD0;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
-button.tus1:hover{
-color: #000000;
-background-color: #6CB48F;
-padding: 15px 32px;
+button#at.tus1:hover {
+  color: #1a5f3c;
+  background-color: #45a573;
+  padding: 15px 32px;
 }
 
-img{
-float: right;
+img {
+  float: right;
 }
 
-span{
-display: block;
+span {
+  display: block;
 }
