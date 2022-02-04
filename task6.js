@@ -1,21 +1,13 @@
-console.log('1937937')
 console.log(Math.round(Math.random() * 100))
-function kisi(İsim,Yaş,Sayı) {
+function kisi(name, age, no) {
    const adam = {
-    ad:"Ziyalo Tehlike",
-    yas:34,
-    No: 20731,
+    ad: name,
+    yas: age,
+    no: no,
   };
-return adam;
- }
- let adam = (kisi())
- console.log(adam);
+  return adam;
+}
 
+const adam = kisi('Halil Emre', 17, 1111111);
 
-
-
-
-
-
-
-
+console.log(adam);
