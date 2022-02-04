@@ -5,7 +5,7 @@ body {
   font-size: 24px;
 }
 
-#baslik1 {
+.baslik1 {
   color: #000000;
   font-family: 'Bebas Neue', cursive ;
   font-weight: normal;
@@ -13,7 +13,7 @@ body {
   font-weight: 646;
 }
 
-#yazi1 {
+.yazi1 {
   color: #707581;
 }
 
@@ -36,10 +36,23 @@ button#at.tus1:hover {
   padding: 15px 32px;
 }
 
-img {
-  float: right;
-}
-
 span {
   display: block;
 }
+
+.kutusag{
+  display: flex;
+  flex-direction:row;
+}
+
+.basliksag {
+  display: flex;
+  flex-direction:row;
+  gap: 0px 20px;
+}
+
+.resimsag {
+  display: flex;
+  flex-direction: column;
+}
+
